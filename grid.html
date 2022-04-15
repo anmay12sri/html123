@@ -1,0 +1,41 @@
+<html>
+    <style>
+        .container{
+        display:grid;
+       
+  
+       
+        grid-gap: 10px;
+        background-color: blue;}
+    
+    .container>div
+    {
+        background-color:powderblue;
+        text-align:center;
+        padding:20px;
+    }
+        
+        .itemHeader{grid-area:h1;}
+        .itemMenu{grid-area:h2;}
+        .itemMain{grid-area:h3;}
+        .itemRight{grid-area:h4;}
+        .itemFooter{grid-area:h5;}
+        .itemHeader{
+            grid-column:2/3 ;
+        }
+        
+       
+    </style>
+    <body>
+        <div class="container">
+            
+                <div class="item">Header</div>
+                <div class="item">Menu</div>
+                <div class="item">Main</div>
+                <div class="item">Right</div>
+                <div class="item">Footer</div>
+               
+            
+        </div>
+    </body>
+</html>
